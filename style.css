@@ -44,9 +44,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-
 header img {
     height: 120px;
     width: 200px;
@@ -55,28 +52,25 @@ header img {
 nav {
     background-color: var(--cor02);
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 17px;
     margin-top: -20px;
-    
-    
 }
 
-a {
-    color: white;
+a {color: white;
     text-decoration: none;
-    margin: -4px;
     font-size: 20px;
-    
-}
+    display: flex;}
 
 a:hover {
     background-color: var(--cor00);
-    
-    border-radius: 10px;
-}
+    width: 200px;
+    transition: 1s;
+    margin-left: 30px;
+    border-radius: 10px;}
 
 .link {
-    margin-bottom: -8px;
+    margin-bottom: 6px;
+    margin-top: -2px;
     width: 30px;
     height: 30px;
 }
