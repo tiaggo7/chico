@@ -54,7 +54,7 @@ header img {
 
 nav {
     background-color: var(--cor02);
-    text-align: start;
+    text-align: center;
     padding-bottom: 30px;
     margin-top: -20px;
     
@@ -64,17 +64,14 @@ nav {
 a {
     color: white;
     text-decoration: none;
-    /*voltar*/
-    margin: 20px;
+    margin: -3px;
     font-size: 20px;
     
 }
 
 a:hover {
     background-color: var(--cor00);
-    transition-duration: 1s;
-    padding-right: 10px;
-    padding-left: 10px;
+    
     border-radius: 10px;
 }
 
