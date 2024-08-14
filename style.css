@@ -57,14 +57,17 @@ nav {
     text-align: start;
     padding-bottom: 30px;
     margin-top: -20px;
-    padding-right: 65px;
+    
+    
 }
 
 a {
     color: white;
     text-decoration: none;
-    margin-left: 15px;
+    /*voltar*/
+    margin: 20px;
     font-size: 20px;
+    
 }
 
 a:hover {
@@ -98,7 +101,7 @@ a:hover {
     }
 }
 
-@media(min-width: 1365px) {
+@media(min-width: 1450px) {
     .container02 {
         width: 100vh;
         display: flex;
