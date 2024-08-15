@@ -145,6 +145,7 @@ p {
     font-weight: bolder;
 
 
+
 }
 
 section {
@@ -183,6 +184,12 @@ li {
 
 p#titulo02 {
     background-color: #ffffff;
+    
+}
+
+p#titulo02 > a {
+    color: blue;
+
 }
 
 :root {
