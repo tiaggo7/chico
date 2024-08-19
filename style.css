@@ -56,7 +56,8 @@ nav {
     margin-top: -20px;
 }
 
-a {color: white;
+a {
+    color: white;
     text-decoration: none;
     font-size: 20px;
     display: flex;
@@ -67,7 +68,8 @@ a:hover {
     background-color: var(--cor00);
     margin-left: 30px;
     transition: 1s;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
 .link {
     margin-bottom: 6px;
@@ -146,19 +148,19 @@ p {
 }
 
 section {
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main#inicio {
     background-color: #ffffff;
     width: 160vh;
-border-radius: 15px 0px 15px 0px;
+    border-radius: 15px 0px 15px 0px;
 }
 
 @media(min-width: 820px) {
-    main#inicio{
+    main#inicio {
         columns: 3;
     }
 }
@@ -181,10 +183,10 @@ li {
 
 p#titulo02 {
     background-color: #ffffff;
-    
+
 }
 
-p#titulo02 > a {
+p#titulo02>a {
     color: blue;
 
 }
