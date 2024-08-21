@@ -53,7 +53,7 @@ nav {
     background-color: var(--cor02);
     text-align: center;
     padding-bottom: 17px;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 a {
@@ -61,7 +61,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     display: flex;
-    width: 200px;
+    width: 150px;
 }
 
 a:hover {
@@ -95,7 +95,7 @@ a:hover {
     }
 }
 
-@media(min-width: 1450px) {
+@media(min-width: 3500px) {
     .container02 {
         width: 100vh;
         display: flex;
@@ -182,13 +182,28 @@ li {
 }
 
 p#titulo02 {
-    background-color: #ffffff;
+    background-color: var(--cor02);
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
 
 }
 
 p#titulo02>a {
-    color: blue;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-align: center;
+}
 
+#num {
+    width: 200px;
+}
+
+#num>img {
+    width: 25px;
+    height: 25px;
 }
 
 :root {
