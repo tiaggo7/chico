@@ -126,6 +126,7 @@ a:hover {
     margin-left: 15px;
     margin-bottom: 10px;
     border: #0e0e0e solid 3px;
+    
 }
 
 h2 {
@@ -151,6 +152,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 main#inicio {
