@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
@@ -32,7 +33,7 @@ header {
 
 
 h1 {
-    color: #ffffff;
+    color: #323692;
     background-color: var(--cor00);
     font-weight: 320;
     font-size: 25px;
@@ -138,10 +139,26 @@ h2 {
     padding: 20px;
 }
 
-footer {}
+
 
 
 /*Inicio*/
+
+.rodape{
+    background-color: #f7c92c;
+    color: #323692;
+    font-family: "Exo", sans-serif;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.rodape  a {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
 
 p {
     font-size: larger;
@@ -178,29 +195,27 @@ ul {
 p#titulo01 {
     margin-top: 20px;
 }
+#titulo {
+    color: #323692;
+    font-family: "Exo", sans-serif;
+}
 
 li {
     margin-top: 15px;
 }
 
-p#titulo02 {
-    background-color: var(--cor02);
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    padding: 15px;
-    font-size: 25px;
-    border-radius: 10px;
-
-}
-
-p#titulo02>a {
-    color: rgb(255, 255, 255);
-    font-family: sans-serif;
-    text-align: center;
-}
-
 #num {
     width: 200px;
+    background-color: #323692;
+    margin-left: 0px;
+    transition: 0px;
+    border-radius: 20px;
+}
+
+#num:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    font-size: 21px;
 }
 
 #num>img {
