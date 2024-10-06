@@ -128,7 +128,7 @@ a:hover {
     margin-left: 15px;
     margin-bottom: 10px;
     border: #0e0e0e solid 3px;
-    
+
 }
 
 h2 {
@@ -145,7 +145,7 @@ h2 {
 
 /*Inicio*/
 
-.rodape{
+.rodape {
     background-color: #f7c92c;
     color: #323692;
     font-family: "Exo", sans-serif;
@@ -158,12 +158,43 @@ h2 {
 
 }
 
-.rodape a{
+.rodape a {
     color: #ffffff;
     font-family: sans-serif;
     text-align: center;
 }
 
+#rodape-inicio-a {
+    width: 150px;
+    height: 20px;
+    font-size: 24px;
+    color: #fdfdfd;
+   
+
+}
+
+#rodape-inicio-a:hover {
+    text-decoration: underline;
+    color: black;
+    margin-left: 0px;
+    transition: 0s;
+    border-radius: 0%;
+
+}
+
+#rodape-inicio-a>img{
+    width: 25px;
+    height: 25px;
+}
+
+#rodape-inicio-footer {
+    background-color: #f7c92c;
+    color: #323692;
+    font-family: "Exo", sans-serif;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+}
 
 p {
     font-size: larger;
@@ -174,7 +205,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 main#inicio {
@@ -200,6 +231,7 @@ ul {
 p#titulo01 {
     margin-top: 20px;
 }
+
 #titulo {
     color: #323692;
     font-family: "Exo", sans-serif;
@@ -219,6 +251,7 @@ li {
 }
 
 
+
 #num:hover {
     text-decoration: underline;
     transition: 0.5s;
@@ -228,8 +261,10 @@ li {
 #num>img {
     width: 25px;
     height: 25px;
-    
+
 }
+
+
 
 :root {
     --cor00: #f7c92c;
