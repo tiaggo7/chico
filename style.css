@@ -90,7 +90,7 @@ a:hover {
 }
 
 
-@media(min-width: 750px) {
+@media(min-width: 820px) {
     .container01 {
         display: flex;
         flex-direction: row;
@@ -130,6 +130,17 @@ a:hover {
     border: #0e0e0e solid 3px;
 
 }
+
+#antes{
+    width: 450px;
+}
+
+@media(min-width: 890px){
+   #antes {
+        width: 590px;
+    }
+}
+
 
 h2 {
 
