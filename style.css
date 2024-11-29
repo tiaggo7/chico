@@ -58,7 +58,7 @@ nav {
     margin-top: -25px;
 }
 
-a {
+.header-menu {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -66,7 +66,7 @@ a {
     width: 150px;
 }
 
-a:hover {
+.header-menu:hover {
     background-color: var(--cor00);
     margin-left: 30px;
     transition: 1s;
@@ -78,6 +78,17 @@ a:hover {
     margin-top: -2px;
     width: 30px;
     height: 30px;
+}
+
+.lista-inicio {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.lista-inicio:hover {
+    text-decoration: underline;
+    color: #000000;
+    
 }
 
 /*Serviços*/
