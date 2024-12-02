@@ -171,13 +171,25 @@ h2 {
     background-color: #f7c92c;
     color: #323692;
     font-family: "Exo", sans-serif;
-    text-align: justify;
     padding: 15px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
 
+}
+
+.rodape img {
+    width: 25px;
+    margin-bottom: -8px;
+    
+}
+
+.rodape div {
+    background-color: var(--cor02);
+    width: 168px;
+    height: 35px;
+    border-radius: 10px;
 }
 
 .rodape a {
@@ -265,7 +277,7 @@ li {
 }
 
 #num {
-    width: 200px;
+    
     background-color: #323692;
     margin-left: 0px;
     transition: 0px;
@@ -278,11 +290,12 @@ li {
     text-decoration: underline;
     transition: 0.5s;
     font-size: 21px;
+    
 }
 
 #num>img {
     width: 25px;
-    height: 25px;
+    
 
 }
 
